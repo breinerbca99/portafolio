@@ -51,6 +51,12 @@ Instala la depedencia, para hacer el deploy a github pages
 ng build --prod --base-href=/[projectname]/
 ng build --prod --base-href https://breinerbca99.github.io/portafolio/
 
+git branch gh-pages
+git checkout gh-pages
+git push origin gh-pages
+ng build --output-path docs --base-href /portafolio/
+
+
 GUIA de como desplegar
 https://dev.to/danielcaballero88/how-to-deploy-angular-website-to-github-pages-jhb
 COMO SUBIR UN PROYECTO ANGULAR A GITHUB PAGES EN MENOS DE 5 MINUTOS!: https://www.youtube.com/watch?v=VtNXgiLaw1E
