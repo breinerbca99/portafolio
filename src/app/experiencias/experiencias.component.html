@@ -1,0 +1,10 @@
+<div *ngIf="entrada" class="cd-timeline">
+    <div  class="cd-timeline-block animated" *ngFor="let experiencia of experiencias">
+        <app-experiencia [item]="experiencia"></app-experiencia>
+    </div>
+</div>
+<div *ngIf="!entrada" class="cd-timeline">
+    <div class="cd-timeline-block animated" *ngFor="let educacion of educaciones">
+        <app-experiencia [item]="educacion"></app-experiencia>
+    </div>
+</div>

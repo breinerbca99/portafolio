@@ -1,0 +1,41 @@
+<div>
+    <div class="content-box animated" style="margin-bottom: 20px;">
+        <div class="i_title">
+            <!-- <i class="fa-regular fa-cloud"></i> -->
+           
+            <div class="icon">
+
+                <!-- <img src="../assets/imagenes/skills/java-brands.svg" alt="languajes" style="width: 30px !important; height: 40px;margin-top: -5px;"/> -->
+                <!-- <img src="../assets/imagenes/skills/js-brands.svg" alt="languajes" style="width: 30px !important; height: 30px;"/> -->
+                <!-- <img  src="../assets/imagenes/skills/cloud-solid.svg" alt="languajes" style="width: 45px !important; height: 30px;"/> -->
+                <!-- <img src="../assets/imagenes/skills/database.png" alt="languajes" style="width: 30px !important; height: 30px;"/> -->
+
+                <!-- <img  src="{{servicio.icono}}" alt="languajes" style="{{servicio.estilo}}"/> -->
+                <!-- <i class="fab fa-jenkins fa-2x text-white"></i> -->
+               <!--  <i class="fab fa-java fa-2x text-white" style="margin-top: 15px;"></i> -->
+                <!-- <i class="fab fa-node-js fa-2x text-white" style="margin-top: 15px;"></i> -->
+
+               <!--  <i class="fab fa-database fa-2x text-white"></i> -->
+               <!--  <i class="fas fa-mobile-android-alt fa-2x text-white"></i> -->
+                <!-- <i class="fas fa-mobile-alt fa-2x text-white" style="margin-top: 15px;"></i> -->
+                <!-- <i class="fas fa-database fa-2x text-white" style="margin-top: 15px;"></i> -->
+               <!--  <i class="fa-solid fa-cloud fa-2x text-white" style="margin-top: 15px;"></i> -->
+
+               <i class="{{servicio.icono}}" style="margin-top: 15px;"></i>
+              
+            </div>
+
+
+            <img src="{{servicio.img}}" style="width: 300px;height: 200px;margin-top: 20px;" alt="">
+            <div class="name">{{servicio.nombre}}</div>
+        </div>
+        <p>
+            {{servicio.descripcion}}
+        </p>
+        <ul>
+            <li *ngFor="let punto of servicio.puntos">
+                {{punto}}
+            </li>
+        </ul>
+    </div>
+</div>

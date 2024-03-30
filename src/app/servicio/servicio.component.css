@@ -1,0 +1,14 @@
+.image-br{
+    width: 30px;
+    font-size: 4px !important;
+    color: white;
+}
+
+path{
+    fill: currentColor !important;
+}
+
+.sv{
+    fill: #ff0000 !important;
+    fill-opacity:1;
+}

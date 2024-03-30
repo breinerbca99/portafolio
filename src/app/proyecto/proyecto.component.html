@@ -1,0 +1,87 @@
+<div class="page" id="home-section">
+
+    <!-- Header -->
+    <header>
+        <div class="top-menu">
+            <ul>
+                <li>
+                    <a class="text-white active" aria-current="page" routerLink="/perfil"
+                        routerLinkActive="active"><span class="circle">Home</span></a>
+                </li>
+                <li>
+                    <a class="btn_animated"><span class="circle">About</span></a>
+                </li>
+            </ul>
+            <a  class="menu-btn bg-primary"><span></span></a>
+        </div>
+    </header>
+
+    <div style="background-color: #f8efef;">
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Section About -->
+            <div class="section about" id="about-section">
+                <div class="content-box">
+                    <div class="row">
+                        <div class="col col-sm-12 col-md-5 col-lg-5">
+                            TECNOLOGIAS
+                            <div class="info-list">
+                                <!--  -->
+                                <ul style="list-style: none;">
+                                    <li  *ngFor="let tecnologia of proyectoBuscado.tecnologias">
+                                        <strong><span>{{tecnologia}}{{':'}}</span></strong>  ✓
+                                    </li>                                 
+                                </ul>
+                                <p style="text-align: center;">
+                                    {{proyectoBuscado.descripcion}}
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col col-sm-12 col-md-7 col-lg-7">
+                           <!--  style="margin: 0 auto;width: 80%; height: 300px;" -->
+                                                                      
+                            <div class="row justify-content-center h-100 contenidoImagen">
+                                <div class="col-7 align-self-center text-center">
+                                    <p style="text-align: center;"><strong>{{proyectoBuscado.nombre}}</strong></p>
+                                    <img class="imagenPrincipal" src="{{proyectoBuscado.imagen}}" width="400px" height="300px">      
+                                </div>
+                            </div>        
+                            
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- MAS SOBRE EL PROYECTO -->
+        <div style="width: 90%;margin: auto;">
+            <!-- Section Skills -->
+            <div class="section skills" id="skills-section">
+                <div class="title title-skills">Mas sobre el proyecto</div>
+
+                <div class="row">
+                    <div *ngFor="let vista of proyectoBuscado.vistas" class="col-sm-12 col-md-6 col-d-6">
+                        <div class="content-box animated">
+                            <div>
+                                <!-- <img  src="{{proyectoBuscado.imagen}}" > -->
+                                <img  src="{{vista.img}}" style="width: 100%; ">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">{{vista.nombre}}</h4>
+                                <p class="card-text">{{vista.descripcion}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <div class="copy">>© 2022 Breiner Roiser Correa Atucsa.</div>
+            </footer>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<div>
+    <div class="cd-timeline-point">
+        <i class="icon ion ion-ios-checkmark-empty"></i>
+    </div>
+    <div class="cd-timeline-content">
+        <div class="content-box">
+            <div class="date">{{item.anio}} </div>
+            <div class="name"  style="color: #304fff;"><h3>{{item.centroTrabajo}}</h3></div>
+            <div style="color: #304fff;margin-bottom: 10px;font-size: 18px;font-weight: bold;">{{item.proyecto}}</div>
+            <div class="category" style="color: #304fff;font-weight: bold;">{{item.puesto | uppercase}}</div>
+            <p *ngFor="let descripcion of item.descripcion" style="display: block;">
+                {{descripcion}} 
+            </p>
+
+            <h5 style="color: #304fff;margin-top: 18px;font-weight: bold;">Tecnologias</h5>
+            <p>
+                {{item.tecnologia}}
+            </p>            
+        </div>
+    </div>
+</div>
