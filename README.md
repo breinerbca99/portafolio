@@ -48,6 +48,7 @@ dist/[PROJECTNAME] → "outputPath": "dist/portafolio" (Verificar el nombre coin
 Instala la depedencia, para hacer el deploy a github pages
 * ng add angular-cli-ghpages
 * ng deploy --base-href=https://breinerbca99.github.io/portafolio/
+
 ng build --prod --base-href=/[projectname]/
 ng build --prod --base-href https://breinerbca99.github.io/portafolio/
 
