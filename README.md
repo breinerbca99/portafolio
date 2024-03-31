@@ -54,3 +54,8 @@ ng build --prod --base-href https://breinerbca99.github.io/portafolio/
 GUIA de como desplegar
 https://dev.to/danielcaballero88/how-to-deploy-angular-website-to-github-pages-jhb
 COMO SUBIR UN PROYECTO ANGULAR A GITHUB PAGES EN MENOS DE 5 MINUTOS!: https://www.youtube.com/watch?v=VtNXgiLaw1E
+
+IMPORTANTE
+Para github pages hay que tener el 
+dist/[PROJECTNAME] → "outputPath": "dist/portafolio" (hay que quitarle el [PROJECTNAME])
+ya que este genera error
