@@ -49,13 +49,17 @@ Instala la depedencia, para hacer el deploy a github pages
 * ng add angular-cli-ghpages
 * ng deploy --base-href=https://breinerbca99.github.io/portafolio/
 
+
+
 ng build --prod --base-href=/[projectname]/
 ng build --prod --base-href https://breinerbca99.github.io/portafolio/
 ### Esto va despues que se genero por primera vez el dist de angular
 ng build --base-href https://breinerbca99.github.io/portafolio/
 ng build --output-path=dist --base-href https://breinerbca99.github.io/portafolio/
 
-### 
+## BUILD
+### Verificar tener la dependencia para hacer el build
+npm install -g angular-cli-ghpages
 Despliega en github pages
 ngh --dir=dist
 
