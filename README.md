@@ -1,4 +1,4 @@
-# portafolio
+# Versiones del proyecto
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
 
@@ -33,7 +33,7 @@ ng build --output-path=dist --base-href https://breinerbca99.github.io/portafoli
 ###  Despliega en github pages
 ngh --dir=dist
 
-## GUIA de como desplegar
+## Guia de como desplegar
 https://dev.to/danielcaballero88/how-to-deploy-angular-website-to-github-pages-jhb
 COMO SUBIR UN PROYECTO ANGULAR A GITHUB PAGES EN MENOS DE 5 MINUTOS!: https://www.youtube.com/watch?v=VtNXgiLaw1E
 
