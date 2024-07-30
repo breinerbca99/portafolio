@@ -15,9 +15,9 @@ https://github.com/breinerbca99/portafolio
 * https://breinerbca99.github.io/portafolio/
 * https://mi-portafolio-breinerbca99.vercel.app/
 
-## Build
-### Dependencias
-## Dependencias para el build github pages
+
+## Dependencias
+### Dependencias para el build github pages
 * ng add angular-cli-ghpages
 
 ### Construir proyecto en local
