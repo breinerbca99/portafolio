@@ -60,7 +60,9 @@ ng build --output-path=dist --base-href https://breinerbca99.github.io/portafoli
 ## BUILD
 ### Verificar tener la dependencia para hacer el build
 npm install -g angular-cli-ghpages
-Despliega en github pages
+### Construir proyecto compilado
+ng build --output-path=dist --base-href https://breinerbca99.github.io/portafolio/
+###  Despliega en github pages
 ngh --dir=dist
 
 GUIA de como desplegar
