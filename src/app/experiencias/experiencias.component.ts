@@ -13,6 +13,18 @@ export class ExperienciasComponent implements OnInit {
   educaciones: any[] = []; // Definición de la propiedad educaciones
   experiencias: Experiencia[] = [{
     centroTrabajo: 'BBVA PERU - LIMA - PERU',
+    proyecto: 'Realability Adquirencia - Proyecto DCC',
+    puesto: 'Software Associate Solutions',
+    descripcion: [
+      '• Poder permitir en los POS el pago con diferentes tipos de tarjetas extranjeras', 
+      '• Modificar programas para ajuste por tipo de cambio y redondeo',
+      '• Creacion de servicios para cotizacion y liquidacion',
+      '• Cruce de nueva tabla de indicadores con tabla de comercios y contratos',
+      '• Manejo de integración continua BitBucket,Jenkins, Sonarqube',],
+    tecnologia: `Cobol, JCL, Java, Spring, APX (Framework Backend de BBVA).`,
+    anio: 2023
+  },{
+    centroTrabajo: 'BBVA PERU - LIMA - PERU',
     proyecto: 'Realability Adquirencia - Medios de Pagos',
     puesto: 'Software Associate Solutions',
     descripcion: [

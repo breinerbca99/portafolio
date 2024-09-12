@@ -42,3 +42,5 @@ Para github pages hay que tener el
 dist/[PROJECTNAME] → "outputPath": "dist/portafolio" (hay que quitarle el [PROJECTNAME])  ya que este genera error
 
 dist/[PROJECTNAME] → "outputPath": "dist/portafolio" (Verificar el nombre coincida con el nombre del proyecto de github)
+
+## Ejecutar el proyecto
