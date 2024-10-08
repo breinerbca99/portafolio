@@ -15,7 +15,7 @@ export class ProyectoComponent implements OnInit {
       tipo: 'frontend',
       link: 'https://github.com/breinerbca99/webserver-hbs-express',
       lengua: 'Java',
-      nombre: 'Proyecto Adidas',
+      nombre: 'Proyecto Replica Adidas',
       descripcion: 'Este es un software réplica de la página web Adidas en la cual tendremos las opciones del cliente las cuales son comprar, registrarse y loguearse, además de las del administrador como poder ver nuestros clientes sus productos sus facturas.',
       imagen: 'assets/imagenes/works/adidas/adidas1P.png',
       tecnologias:
@@ -208,7 +208,7 @@ export class ProyectoComponent implements OnInit {
       tipo: 'frontend',
       link: 'https://github.com/breinerbca99/webserver-hbs-express',
       lengua: 'JavaScript',
-      nombre: 'Proyecto Spotify',
+      nombre: 'Proyecto Replica Spotify',
       descripcion: 'Este proyecto permite manejar un crud completo de los usuarios, artistas, albúmenes, canciones donde un usuario podrá guardar a sus artistas favoritos y albúmenes y las canciones que más le gusta',
       imagen: 'assets/imagenes/works/spotify/spotify1P.png',
       tecnologias:

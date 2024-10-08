@@ -28,7 +28,7 @@
 	left: 0;
 	width: 100%;
 	height: 320px;
-	background: #304fff;
+	background: #28554B;
 }
 
 @media (max-width: 720px) {
@@ -59,7 +59,7 @@ header .top-menu {
 	right: -300px;
 	width: 300px;
 	height: 100%;
-	background: #304fff;
+	background: #28554B;
 	transition: all 0.4s ease 0s;
 	-moz-transition: all 0.4s ease 0s;
 	-webkit-transition: all 0.4s ease 0s;
@@ -166,7 +166,7 @@ header .menu-btn:before {
 	width: 100%;
 	height: 100%;
 	opacity: 0;
-	background: #304fff;
+	background: #28554B;
 	transition: all 0.2s ease 0s;
 	-moz-transition: all 0.2s ease 0s;
 	-webkit-transition: all 0.2s ease 0s;
@@ -241,7 +241,7 @@ header .menu-btn span:after {
 	bottom: -45px;
 	width: 62px;
 	height: 62px;
-	background: #304fff;
+	background: #28554B;
 	text-align: center;
 	line-height: 62px;
 	padding-left: 1px;
@@ -275,7 +275,7 @@ header .menu-btn span:after {
 	width: 62px;
 	height: 62px;
 	line-height: 62px;
-	background: #304fff;
+	background: #28554B;
 	transition: all 0.2s ease 0s;
 	-moz-transition: all 0.2s ease 0s;
 	-webkit-transition: all 0.2s ease 0s;
@@ -389,7 +389,7 @@ header .menu-btn span:after {
 
 .st-box .st-bts a .icon {
 	font-size: 16px;
-	color: #304fff;
+	color: #28554B;
 }
 
 .st-box .st-image {
@@ -450,7 +450,7 @@ header .menu-btn span:after {
 	height: 40px;
 	line-height: 46px;
 	text-align: center;
-	background: #304fff;
+	background: #28554B;
 	transition: all 0.2s ease 0s;
 	-moz-transition: all 0.2s ease 0s;
 	-webkit-transition: all 0.2s ease 0s;
@@ -584,7 +584,7 @@ header .menu-btn span:after {
 
 .info-list ul li strong span {
 	padding: 2px 5px;
-	background: #304fff;
+	background: #28554B;
 	color: #fefefe;
 	font-weight: 400;
 	border-radius: 2px;
@@ -638,7 +638,7 @@ header .menu-btn span:after {
 	left: 0;
 	width: 0%;
 	height: 8px;
-	background: #304fff;
+	background: #28554B;
 	border-radius: 2px;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
@@ -657,7 +657,7 @@ header .menu-btn span:after {
 	width: 26px;
 	line-height: 26px;
 	text-align: center;
-	background: #304fff;
+	background: #28554B;
 	border-radius: 26px;
 	-moz-border-radius: 26px;
 	-webkit-border-radius: 26px;
@@ -704,7 +704,7 @@ header .menu-btn span:after {
 	left: 50%;
 	width: 3px;
 	height: 100%;
-	background: #304fff;
+	background: #28554B;
 }
 
 @media (max-width: 720px) {
@@ -772,7 +772,7 @@ header .menu-btn span:after {
 	right: auto;
 	left: 100%;
 	border-right: none;
-	border-left: 6px solid #304fff;
+	border-left: 6px solid #28554B;
 }
 
 @media (max-width: 720px) {
@@ -786,7 +786,7 @@ header .menu-btn span:after {
 		left: auto;
 		right: 100%;
 		border-left: none;
-		border-right: 6px solid #304fff;
+		border-right: 6px solid #28554B;
 	}
 
 }
@@ -800,7 +800,7 @@ header .menu-btn span:after {
 	height: 26px;
 	line-height: 26px;
 	text-align: center;
-	background: #304fff;
+	background: #28554B;
 	border-radius: 26px;
 	-moz-border-radius: 26px;
 	-webkit-border-radius: 26px;
@@ -883,7 +883,7 @@ header .menu-btn span:after {
 	height: 0;
 	width: 0;
 	border: 6px solid transparent;
-	border-right: 6px solid #304fff;
+	border-right: 6px solid #28554B;
 }
 
 @media (max-width: 720px) {
@@ -976,7 +976,7 @@ header .menu-btn span:after {
 
 .section.works .filters .btn-group {
 	display: inline-block;
-	background: #304fff;
+	background: #28554B;
 }
 
 @media (max-width: 720px) {
@@ -1204,7 +1204,7 @@ header .menu-btn span:after {
 
 .reviews-carousel .owl-dots .owl-dot.active {
 	opacity: 1;
-	background: #304fff;
+	background: #28554B;
 }
 
 /* 11. Pricing */

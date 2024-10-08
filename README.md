@@ -46,3 +46,8 @@ dist/[PROJECTNAME] → "outputPath": "dist/portafolio" (Verificar el nombre coin
 
 ## Ejecutar el proyecto
 ng serve -o
+
+## Subir cambios
+1) Commit
+2) ng build --output-path=dist --base-href https://breinerbca99.github.io/portafolio/
+3) ngh --dir=dist

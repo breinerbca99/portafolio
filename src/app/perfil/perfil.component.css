@@ -35,12 +35,13 @@
 }
 
 .portadaFondo{
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
+    /* background-repeat: no-repeat;  */
     background-image: url('../../assets/imagenes/portada.jpg');
+    /* background-image: url('../../assets/imagenes/portadaaux.jpg'); */
+    background-size: cover; /* Hace que la imagen cubra completamente el contenedor */
+    background-position: center;
 }
 
 @media (max-width: 540px) {

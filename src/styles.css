@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+h1,
+h2,
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div,
+ul,
+li {
+    font-family: 'Source Sans Pro', sans-serif;
+}

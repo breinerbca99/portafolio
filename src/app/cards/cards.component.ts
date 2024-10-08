@@ -19,7 +19,7 @@ export class CardsComponent implements OnInit {
       tipo: 'frontend',
       link: 'https://github.com/breinerbca99/webserver-hbs-express',
       lengua: 'Java',
-      nombre: 'Proyecto Adidas',
+      nombre: 'Proyecto Replica Adidas',
       descripcion: 'Sitio web en que un cliente puede comprar, registrarse y loguearse,existe un administrador que puede ver los clientes y las facturas.',
       imagen: 'assets/imagenes/works/adidas/principal.png',
       tecnologias:
@@ -211,7 +211,7 @@ export class CardsComponent implements OnInit {
       tipo: 'frontend',
       link: 'https://github.com/breinerbca99/webserver-hbs-express',
       lengua: 'JavaScript',
-      nombre: 'Proyecto Spotify',
+      nombre: 'Proyecto Replica Spotify',
       descripcion: 'Gestion de usuarios, artistas, albúmenes, canciones donde podrá guardar a sus artistas favoritos y albúmenes y las canciones que más le gusta',
       imagen: 'assets/imagenes/works/spotify/principal.png',
       tecnologias:
