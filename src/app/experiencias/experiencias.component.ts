@@ -22,7 +22,7 @@ export class ExperienciasComponent implements OnInit {
       '• Cruce de nueva tabla de indicadores con tabla de comercios y contratos',
       '• Poder permitir en los POS el pago con diferentes tipos de tarjetas extranjeras',],
     tecnologia: `Cobol, JCL, Java, Spring, APX (Framework Backend de BBVA).`,
-    anio: 2023
+    anio: 2024
   },{
     centroTrabajo: 'BBVA PERU - LIMA - PERU',
     proyecto: 'REALABILITY ADQUIRENCIA - MEDIOS DE PAGOS(ADQUIRENCIA)',
@@ -34,7 +34,7 @@ export class ExperienciasComponent implements OnInit {
       '• Manejo de integración continua BitBucket, Jenkins, Sonarqube',
       '• Garantizar la integridad y continuidad de la producción Adquirencia',],
     tecnologia: `Java, Spring, APX (Framework Backend de BBVA), git, Bitbucket, Oracle, Cucumber,  Servicios Aso (Servicios BBVA), Jenkins, Docker.`,
-    anio: 2023
+    anio: 2023.2024
   },{
     centroTrabajo: 'BBVA PERU - LIMA - PERU',
     proyecto: 'MERCURIO LOYALTY - CANJE Y CONSULTA DE PUNTOS',
