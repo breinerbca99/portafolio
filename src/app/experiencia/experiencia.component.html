@@ -8,12 +8,13 @@
             <div class="name"  style="color: #28554B;"><h3>{{item.centroTrabajo}}</h3></div>
             <div style="color: #28554B;margin-bottom: 10px;font-size: 18px;font-weight: bold;">{{item.proyecto}}</div>
             <div class="category" style="color: #28554B;font-weight: bold;">{{item.puesto | uppercase}}</div>
-            <p *ngFor="let descripcion of item.descripcion" style="display: block;">
+            
+            <p *ngFor="let descripcion of item.descripcion" style="display: block; text-align: justify;">
                 {{descripcion}} 
             </p>
 
             <h5 style="color: #28554B;margin-top: 18px;font-weight: bold;">Tecnologias</h5>
-            <p>
+            <p >
                 {{item.tecnologia}}
             </p>            
         </div>

@@ -51,3 +51,10 @@ ng serve -o
 1) Commit
 2) ng build --output-path=dist --base-href https://breinerbca99.github.io/portafolio/
 3) ngh --dir=dist
+
+
+-------------------------
+#304fff;  ----- azul  por #2C594C     por #28554B
+#f8efef  ----- plomo por #F2F2F2
+Source Sans Pro
+#3eca3e por ve  #417D73
