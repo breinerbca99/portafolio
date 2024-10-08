@@ -18,7 +18,7 @@ export class Perfil {
     profesionComentario: string = "Egresado de la Facultad FISI de Ingenieria de Sistemas en la cual estuve en el tercio superior, y representante de la Universidad en multiples competencias Nacionales";
     /* downloandCV: string = "assets/CV-Breiner.pdf"; */
     downloandCV: string = "assets/CV-Breiner-Correa-Atucsa.pdf";
-    wpp: string = "https://wa.me/51997072900?text=Hola%20Breiner%20Correa%20me%20gustaria%20poder%20contactarte";
+    wpp: string = "https://wa.me/51997072900?text=Hola%20Breiner%20Correa%20me%20gustaria%20poder%20contactarteme%20contigo";
     celularDireccion: string = "tel:(+051) 997 072 900";
     emailDireccion: string = "mailto:breiner.correa99@gmail.com";
 
