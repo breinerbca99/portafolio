@@ -9,7 +9,7 @@ export class Perfil {
     email: string = "breiner.correa99@gmail.com";
     universidad: string = "Universidad Nacional Mayor de San Marcos";
     hola: string = "Hola! Soy Breiner Correa Atucsa";
-    parrafo1: string = "Ingeniero de Sistemas con mas de 4 años de experiencia.Conocimientos en front - end(Angular, React, Lit- Element, Ccs3, HTML5), back - end(Java, Spring, RxJava, Spring WebFlux, microservicios) y en desarrollo Android(java, kotlin) en aplicaciones para sectores de banca, medicina y sector publico.";
+    parrafo1: string = "Ingeniero de Sistemas con más de 5 años de experiencia, especializado en desarrollo front-end (Angular, React, Lit-Element, CSS3, HTML5) y backend (Java, Spring, RxJava, Spring WebFlux, microservicios). Además, tengo experiencia en desarrollo Android (Java, Kotlin) y conocimientos en COBOL, aplicados principalmente en proyectos del sector bancario, y también en los sectores de salud y sector público.";
     parrafo2: string = "Me considero una persona apasionada por la programación tanto front como back. En constante aprendizaje y capacitación de las tecnologías más recientes.";
     parrafo3: string = "Busco integrar equipos multidisciplinarios, donde pueda mejorar mis conocimientos en integracion y despliegue continuo, contenedores y plataformas cloud.";
     actualizado: string = "© 2024 Breiner Roiser Correa Atucsa.";
