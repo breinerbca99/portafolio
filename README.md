@@ -28,6 +28,7 @@ ng build --prod --base-href=/[projectname]/
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 ### Verificar tener la dependencia para hacer el build
 npm install -g angular-cli-ghpages
+
 ### Construir proyecto compilado
 ng build --output-path=dist --base-href https://breinerbca99.github.io/portafolio/
 ###  Despliega en github pages
@@ -44,3 +45,4 @@ dist/[PROJECTNAME] → "outputPath": "dist/portafolio" (hay que quitarle el [PRO
 dist/[PROJECTNAME] → "outputPath": "dist/portafolio" (Verificar el nombre coincida con el nombre del proyecto de github)
 
 ## Ejecutar el proyecto
+ng serve -o
