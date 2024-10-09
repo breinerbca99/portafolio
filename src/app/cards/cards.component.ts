@@ -20,7 +20,7 @@ export class CardsComponent implements OnInit {
       link: 'https://github.com/breinerbca99/webserver-hbs-express',
       lengua: 'Java',
       nombre: 'Proyecto Replica Adidas',
-      descripcion: 'Sitio web en que un cliente puede comprar, registrarse y loguearse,existe un administrador que puede ver los clientes y las facturas.',
+      descripcion: 'Desarrollo de un sitio web funcional que permite a los clientes registrarse, iniciar sesión y realizar compras. Incluye un panel de administración para gestionar clientes y visualizar facturas en tiempo real.',
       imagen: 'assets/imagenes/works/adidas/principal.png',
       tecnologias:
         [
@@ -58,7 +58,7 @@ export class CardsComponent implements OnInit {
       link: 'https://github.com/breinerbca99/webserver-hbs-express',
       lengua: 'Java',
       nombre: 'Carrito de compra',
-      descripcion: 'Este proyecto cuanto con un stock de productos en los cuales distintas personas podrán comprar sus productos y pagarlos con tarjeta o PayPal',
+      descripcion: 'Proyecto de e-commerce con gestión de stock de productos, permitiendo a los usuarios realizar compras y efectuar pagos de manera segura mediante tarjeta de crédito o PayPal.',
       imagen: 'assets/imagenes/works/carrito/principal.png',
       tecnologias:
         [
@@ -96,7 +96,7 @@ export class CardsComponent implements OnInit {
       link: 'https://github.com/breinerbca99/webserver-hbs-express',
       lengua: 'JavaScript',
       nombre: 'Proyecto Ingresos vs Egresos',
-      descripcion: 'Este proyecto nos permitira manejar el control del total de dinero que gastamos o recibimos y en qué cosa lo gastamos o recibimos.',
+      descripcion: 'Este proyecto facilita la gestión y el control financiero, permitiendo registrar y analizar el total de ingresos y gastos, detallando en qué se ha gastado o recibido dinero.',
       imagen: 'assets/imagenes/works/ingreso/principal.png',
       tecnologias:
         [
@@ -133,7 +133,7 @@ export class CardsComponent implements OnInit {
       link: 'https://github.com/breinerbca99/webserver-hbs-express',
       lengua: 'JavaScript',
       nombre: 'Proyecto Hospital',
-      descripcion: 'Este proyecto podrá mantener un crud completo de usuarios, doctores, hospitales y pacientes además de poder asignar y manejar Roles del sistema',
+      descripcion: 'Desarrollo de un sistema completo de gestión (CRUD) para usuarios, doctores y pacientes, con capacidad para asignar y administrar roles dentro del sistema.',
       imagen: 'assets/imagenes/works/hospital/principal.png',
       tecnologias:
         [
@@ -172,7 +172,7 @@ export class CardsComponent implements OnInit {
       link: 'https://github.com/breinerbca99/webserver-hbs-express',
       lengua: 'Java',
       nombre: 'Proyecto Aula virtual',
-      descripcion: 'Este proyecto podrá manejar un crud completo de un alumno, curso, examen, además de poder asignar respuestas, alumnos, cursos a un alumno',
+      descripcion: 'Desarrollo de un sistema completo de gestión (CRUD) para alumnos, cursos y exámenes, con capacidad para asignar respuestas, cursos y exámenes a cada alumno.',
       imagen: 'assets/imagenes/works/examen/principal.png',
       tecnologias:
         [
@@ -212,7 +212,7 @@ export class CardsComponent implements OnInit {
       link: 'https://github.com/breinerbca99/webserver-hbs-express',
       lengua: 'JavaScript',
       nombre: 'Proyecto Replica Spotify',
-      descripcion: 'Gestion de usuarios, artistas, albúmenes, canciones donde podrá guardar a sus artistas favoritos y albúmenes y las canciones que más le gusta',
+      descripcion: 'Sistema de gestión de usuarios, artistas, álbumes y canciones, con funcionalidad para guardar artistas, álbumes y canciones favoritas.',
       imagen: 'assets/imagenes/works/spotify/principal.png',
       tecnologias:
         [
