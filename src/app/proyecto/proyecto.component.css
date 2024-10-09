@@ -31,10 +31,3 @@
         justify-content: left !important;
     }
 }
-
-@media (max-width: 400px) {
-    
-    .col-sm-12{
-        width: 100%;
-    }
-}
